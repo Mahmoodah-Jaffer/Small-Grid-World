@@ -1,0 +1,26 @@
+#Invoke Application:
+Use make run command
+
+#Makefile:
+make: compiles files and makes value iteration executable 
+make run: runs value iteration executable
+make clean: removes object files and executables
+
+state.h:
+Private members declared - actions, probability, discount, rewards and value of each state
+Public members are also declared
+Methods used in state.cpp are declared
+
+state.cpp:
+Functionality of methods used are defined in this file - getters, setters, constructors, destructors
+
+value.h:
+Methods used in value.cpp are declared
+Public members are also declared
+
+value.cpp:
+Functionality of methods defined - finds number of iterations for value iterations. Outputs to file
+
+driver.cpp:
+This file initialises each state with correct actions, probability, discount, rewards and value of each state.
+
